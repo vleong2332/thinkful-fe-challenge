@@ -89,6 +89,7 @@ content {
       height: 45px;
       border: 1px solid $grey_1;
       @include border-radius(5px);
+      background-color: $pureWhite;
    }
    .status_text {
       display: table-cell;
@@ -205,6 +206,7 @@ footer {
       display: inline-block;
       margin-left: 13px;
       margin-right: 13px;
+      a {}
    }
    .vr {
       width: 0;

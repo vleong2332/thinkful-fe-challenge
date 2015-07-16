@@ -31,7 +31,8 @@ ul {
   margin: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 .container, .main_container {
   position: relative; }
@@ -123,7 +124,8 @@ content .status_light {
   border: 1px solid #D0D0D0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: #FFF; }
 
 content .status_text {
   display: table-cell;
