@@ -1,0 +1,20 @@
+@mixin box-shadow($hOff, $vOff, $blurRad, $spreadRad, $color) {
+   -webkit-box-shadow: $hOff $vOff $blurRad $spreadRad $color;
+      -moz-box-shadow: $hOff $vOff $blurRad $spreadRad $color;
+           box-shadow: $hOff $vOff $blurRad $spreadRad $color;
+}
+@mixin box-shadow-inset($hOff, $vOff, $blurRad, $spreadRad, $color) {
+   -webkit-box-shadow: inset $hOff $vOff $blurRad $spreadRad $color;
+      -moz-box-shadow: inset $hOff $vOff $blurRad $spreadRad $color;
+           box-shadow: inset $hOff $vOff $blurRad $spreadRad $color;
+}
+@mixin border-radius($radius) {
+   -webkit-border-radius: $radius;
+      -moz-border-radius: $radius;
+           border-radius: $radius;
+}
+@mixin box-sizing($value) {
+   -webkit-box-sizing: $value;
+      -moz-box-sizing: $value;
+           box-sizing: $value;
+}

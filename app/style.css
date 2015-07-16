@@ -1,0 +1,195 @@
+.block_center, header img, .grid {
+  display: block;
+  margin: 0 auto; }
+
+.special_box, content input, content textarea, content .questions {
+  border: 1px solid #999999;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 3px 3px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 3px 3px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 3px 3px -1px rgba(0, 0, 0, 0.3); }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+:focus {
+  outline: none; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.container, .main_container {
+  position: relative; }
+
+.main_container {
+  min-width: 1120px; }
+
+hr {
+  height: 4px;
+  margin: 0;
+  border: 0;
+  -webkit-box-shadow: 0 1px 2px 1px #AAA;
+  -moz-box-shadow: 0 1px 2px 1px #AAA;
+  box-shadow: 0 1px 2px 1px #AAA; }
+
+input, textarea, button,
+.col, .status_light, .light_active {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h2, p {
+  color: #054659; }
+
+header {
+  padding: 0.875rem 0; }
+  header img {
+    width: 8.75rem; }
+
+content .bold_bg {
+  width: 100%;
+  height: 20rem;
+  background-color: #054659; }
+
+content hr {
+  background-color: #66B6CD; }
+
+content .title {
+  padding: 4rem 0;
+  color: #FFF; }
+  content .title p {
+    color: #FFF; }
+
+content .panel {
+  background-color: #F7F7F7;
+  padding-top: 1.35rem;
+  padding-bottom: 1.35rem;
+  margin-bottom: 1.125rem;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15); }
+
+content input, content textarea {
+  width: 100%;
+  margin-bottom: 1.35rem;
+  padding: 20px;
+  resize: none; }
+
+content button[name="ask"] {
+  width: 145px;
+  height: 45px;
+  float: right;
+  border: 1px solid #893A00;
+  padding: 0.75rem 0;
+  background-color: #E86301;
+  color: #F7F7F7;
+  -webkit-box-shadow: inset 0 2px 0 -1px #F1A167, 0 1px 2px -1px #893A00;
+  -moz-box-shadow: inset 0 2px 0 -1px #F1A167, 0 1px 2px -1px #893A00;
+  box-shadow: inset 0 2px 0 -1px #F1A167, 0 1px 2px -1px #893A00;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+content .status_light {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #D0D0D0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+content .status_text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 260px;
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow: hidden; }
+
+content .status_text.active {
+  color: #00BD00; }
+
+content .light_active {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 15px;
+  height: 15px;
+  background-color: #00BD00;
+  border: 1px solid #03A620;
+  -webkit-box-shadow: inset 0 2px 0 -1px rgba(255, 255, 255, 0.2), 0 0 10px 0 #00BD00;
+  -moz-box-shadow: inset 0 2px 0 -1px rgba(255, 255, 255, 0.2), 0 0 10px 0 #00BD00;
+  box-shadow: inset 0 2px 0 -1px rgba(255, 255, 255, 0.2), 0 0 10px 0 #00BD00;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%; }
+
+content .ask_a_question + p {
+  margin-bottom: 4.4375rem; }
+
+content .explanation {
+  margin-bottom: 3.105rem; }
+
+content .explanation_title {
+  margin-bottom: 1.505rem; }
+
+content .recent_questions {
+  margin-top: 200px; }
+
+content .questions {
+  margin-top: 0.875rem;
+  padding: 1rem 0.75rem; }
+  content .questions p {
+    color: black;
+    font-weight: bold; }
+
+content .me_too {
+  float: right;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #E86301;
+  border-bottom: 1px solid #E86301; }
+
+.grid {
+  width: 1120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+  .grid .col {
+    position: absolute;
+    top: 0;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .grid .col .overflown {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .grid .start_5 {
+    left: 320px; }
+  .grid .start_12 {
+    left: 880px; }
+  .grid .span_6 {
+    width: 480px; }
+  .grid .span_2 {
+    width: 160px; }
